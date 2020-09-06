@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost/adapter1
+    username: postgres
+    password: 0
+  jpa:
+    hibernate:
+      ddl-auto: create
+      show-sql: true
+mail:
+  email:
+  password:
